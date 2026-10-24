@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join IRON HOUSE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+
+    <div class="auth-card">
+        <a href="index.html" class="logo">IRON<span>HOUSE</span></a>
+
+        <h1>Create Account</h1>
+        <p>Start your fitness journey today.</p>
+
+        <form id="registerForm">
+            <label for="registerName">Full Name</label>
+            <input type="text" id="registerName" placeholder="Enter your name" required>
+
+            <label for="registerEmail">Email Address</label>
+            <input type="email" id="registerEmail" placeholder="Enter your email" required>
+
+            <label for="registerPassword">Password</label>
+            <input type="password" id="registerPassword" placeholder="Create a password" minlength="8" required>
+
+            <button type="submit" class="primary-button">CREATE ACCOUNT</button>
+            <p id="registerMessage" aria-live="polite"></p>
+        </form>
+
+        <p class="auth-switch">
+            Already registered? <a href="login.html">Log in</a>
+        </p>
+
+        <a href="index.html" class="back-home">← Back to Home</a>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>

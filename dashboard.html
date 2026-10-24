@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Dashboard | IRON HOUSE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-page">
+
+    <aside class="dashboard-sidebar">
+        <h2 class="dashboard-logo">IRON<span>HOUSE</span></h2>
+
+        <nav class="dashboard-nav">
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="#membership">My Membership</a>
+            <a href="#workouts">Workouts</a>
+            <a href="#profile">My Profile</a>
+            <a href="index.html">Main Website</a>
+            <a href="#" id="logoutButton">Log Out</a>
+        </nav>
+    </aside>
+
+    <main class="dashboard-main">
+
+        <header class="dashboard-header">
+            <div>
+                <p class="dashboard-label">MEMBER AREA</p>
+                <h1 id="welcomeMessage">Welcome Back, Champion! 💪</h1>
+                <p>Stay focused. Stay consistent. Get stronger.</p>
+            </div>
+
+            <div class="dashboard-badge">IRON MEMBER</div>
+            <button id="themeToggle" class="theme-toggle" type="button">☀️ Light Mode</button>
+        </header>
+
+        <section class="dashboard-stats">
+            <div class="dashboard-card">
+                <p>MEMBERSHIP</p>
+                <h2>Premium</h2>
+                <span>Your current plan</span>
+            </div>
+
+            <div class="dashboard-card">
+                <p>WORKOUTS</p>
+                <h2>12</h2>
+                <span>Sample sessions completed</span>
+            </div>
+
+            <div class="dashboard-card">
+                <p>TRAINING GOAL</p>
+                <h2>Strength</h2>
+                <span>Keep pushing forward</span>
+            </div>
+        </section>
+
+        <section class="dashboard-content" id="membership">
+            <div class="dashboard-panel">
+                <p class="dashboard-label">YOUR PLAN</p>
+                <h2>Premium Membership</h2>
+                <p>You're viewing a sample member dashboard.</p>
+
+                <div class="membership-detail">
+                    <span>Membership status</span>
+                    <strong>Demo Account</strong>
+                </div>
+
+                <div class="membership-detail">
+                    <span>Training access</span>
+                    <strong>General Gym</strong>
+                </div>
+
+                <div class="membership-detail">
+                    <span>Personal trainer</span>
+                    <strong>Contact Reception</strong>
+                </div>
+
+                <a href="index.html#membership" class="dashboard-button">
+                    VIEW MEMBERSHIP PLANS
+                </a>
+            </div>
+
+            <div class="dashboard-panel" id="workouts">
+                <p class="dashboard-label">TRAINING</p>
+                <h2>Workout Schedule</h2>
+
+                <div class="workout-item">
+                    <span>MON</span>
+                    <div>
+                        <strong>Upper Body</strong>
+                        <p>Chest, shoulders and arms</p>
+                    </div>
+                </div>
+
+                <div class="workout-item">
+                    <span>WED</span>
+                    <div>
+                        <strong>Lower Body</strong>
+                        <p>Legs and core</p>
+                    </div>
+                </div>
+
+                <div class="workout-item">
+                    <span>FRI</span>
+                    <div>
+                        <strong>Full Body</strong>
+                        <p>Full-body strength session</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-panel profile-panel" id="profile">
+            <p class="dashboard-label">ACCOUNT</p>
+            <h2>My Profile</h2>
+           <p>Name: <span id="memberName">Demo Member</span></p>
+<p>Email: <span id="memberEmail">member@example.com</span></p>
+            <p>These are placeholder details, not your actual account information.</p>
+        </section>
+
+        <footer class="dashboard-footer">
+            <p>© 2026 IRON HOUSE | BUILT FOR STRENGTH.</p>
+        </footer>
+
+    </main>
+<script src="dashboard.js"></script>
+</body>
+</html>
+```
